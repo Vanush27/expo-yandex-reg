@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-yandex-reg": ["../src/index"],
+      "expo-yandex-reg/*": ["../src/*"]
+    }
+  }
+}
